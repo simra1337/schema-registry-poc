@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "com.poc",
+  "name": "SchemaOrder",
+  "fields": [
+    { "name": "id", "type": "string"},
+    { "name": "itemName", "type": "string" },
+    { "name": "price", "type": "int" },
+    { "name": "quantity", "type": "int" }
+  ]
+}
